@@ -1,5 +1,5 @@
 
-FROM nginx:alpine
+FROM registry.access.redhat.com/ubi9/nginx-120:latest
 
 # Copy config and SSL generation script
 COPY nginx.conf /etc/nginx/nginx.conf
